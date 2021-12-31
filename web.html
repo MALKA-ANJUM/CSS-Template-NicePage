@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Simplicity of Nature</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+    <div class="containet">
+        <div class="feature">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="menu menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>     
+                <nav class="navigation">
+                        <a href="#">home</a>
+                </nav>
+            </div>
+            <div class="feature-heading">
+                <p>GREEN IS THE PRIME COLOR OF THE WORLD</p>
+                <h1>
+                    Nature is pleased <br>
+                    with simplicity
+                </h1>
+                <p>IMAGE FROM</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="info-card">
+                <h1>01</h1>
+                <h2>Awesome <span>Image</span></h2>
+                <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
+            </div>
+            <div class="info-card">
+                <h1>01</h1>
+                <h2>Awesome <span>Image</span></h2>
+                <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
+            </div>
+        </div>
+        <div class="image">
+            <div class="info-image">
+                <img src="pic-2.jpeg" alt="">
+                <div class="image-text">
+                    <p>SAMPLE TEXT. CLICK TO SELECT THE TEXT BOX. CLICK AGAIN OR DOUBLE CLICK TO START EDITING THE TEXT.</p>
+                </div>
+            </div>
+            <div class="info-image">
+                <img src="pic-5.jpeg" alt="">
+                <div class="image-text">
+                    <p>SAMPLE TEXT. CLICK TO SELECT THE TEXT BOX. CLICK AGAIN OR DOUBLE CLICK TO START EDITING THE TEXT.</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle')
+        let body = document.querySelector('.body')
+        let navigation = document.querySelector('.navigation')
+
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
